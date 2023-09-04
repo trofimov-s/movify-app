@@ -7,7 +7,7 @@
 html,
 a,
 button {
-  @apply font-main;
+  @apply font-main text-base;
 }
 
 body,
@@ -29,4 +29,8 @@ button {
 
 ul {
   @apply list-none;
+}
+
+a {
+  @apply no-underline text-inherit cursor-pointer outline-none hover:underline;
 }
