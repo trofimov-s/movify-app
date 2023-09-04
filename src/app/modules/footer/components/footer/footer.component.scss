@@ -1,0 +1,8 @@
+:host {
+  @apply h-20 flex flex-col items-center justify-center gap-y-3;
+  @apply text-xs;
+
+  a {
+    @apply text-xs;
+  }
+}
