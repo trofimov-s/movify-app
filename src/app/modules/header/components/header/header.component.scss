@@ -1,0 +1,8 @@
+:host {
+  @apply h-16;
+  @apply flex items-center;
+
+  .logo-container {
+    @apply flex gap-x-2;
+  }
+}

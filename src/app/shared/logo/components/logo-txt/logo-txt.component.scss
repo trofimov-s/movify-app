@@ -1,0 +1,24 @@
+:host {
+  .logo-txt {
+    @apply inline-block font-bold;
+    background: linear-gradient(#06d1de 40%, #df07d6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .with--flag {
+    @apply relative;
+
+    &::after {
+      content: '🇺🇦';
+      position: absolute;
+      background-clip: text;
+      -webkit-background-clip: none;
+      -webkit-text-fill-color: initial;
+      top: -8px;
+      right: -24px;
+      font-size: 20px;
+    }
+  }
+}

@@ -6,7 +6,8 @@
       "@core/services": ["src/app/core/services/index.ts"],
       "@core/enum": ["src/app/core/enum/index.ts"],
       "@modules/header": ["src/app/modules/header/index.ts"],
-      "@modules/footer": ["src/app/modules/footer/index.ts"]
+      "@modules/footer": ["src/app/modules/footer/index.ts"],
+      "@shared/logo": ["src/app/shared/logo/index.ts"]
     }
   }
 }

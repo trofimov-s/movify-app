@@ -10,7 +10,14 @@ module.exports = {
         gray: {
           100: '#f9f9f9',
           800: '#202124',
-        }
+        },
+        turquise: {
+          100: "#06d1de",
+          400: "#0fbac5",
+        },
+      },
+      height: {
+        30: "7.5rem" // 120px
       }
     },
     fontFamily: {

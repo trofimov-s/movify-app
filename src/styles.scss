@@ -1,6 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 @import 'normalize';
 @import 'color-schema';
+@import 'vars';
 
 .container {
   @apply mx-auto max-w-5xl block;
+}
+
+main {
+  height: calc(100vh - $header-height - $footer-height);
 }

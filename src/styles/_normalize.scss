@@ -1,34 +1,5 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html,
-a,
-button {
+html {
   @apply font-main text-base;
-}
-
-body,
-h1,
-h2,
-h3,
-ul,
-li,
-p,
-button {
-  @apply m-0 p-0;
-}
-
-button {
-  background: none;
-  border: none;
-  outline: none;
-}
-
-ul {
-  @apply list-none;
 }
 
 a {

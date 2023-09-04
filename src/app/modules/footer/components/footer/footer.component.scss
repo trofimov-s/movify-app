@@ -1,8 +1,13 @@
 :host {
-  @apply h-20 flex flex-col items-center justify-center gap-y-3;
+  @apply h-30 flex flex-col items-center justify-center gap-y-3;
   @apply text-xs;
 
-  a {
-    @apply text-xs;
+  .logo-container {
+    @apply flex items-center gap-x-2;
+  }
+
+  .link {
+    @apply text-xs underline hover:text-turquise-400;
+    @apply transition-colors duration-200;
   }
 }
