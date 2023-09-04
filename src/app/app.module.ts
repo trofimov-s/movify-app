@@ -9,6 +9,7 @@ import { LayoutComponent } from './core/components';
 import { CoreModule } from '@core';
 import { HeaderModule } from '@modules/header';
 import { FooterModule } from '@modules/footer';
+import { AppStoreModule } from './store/app-store.module';
 
 @NgModule({
   declarations: [AppComponent, LayoutComponent],
@@ -19,6 +20,7 @@ import { FooterModule } from '@modules/footer';
     HeaderModule,
     FooterModule,
     HttpClientModule,
+    AppStoreModule,
   ],
   bootstrap: [AppComponent],
 })
