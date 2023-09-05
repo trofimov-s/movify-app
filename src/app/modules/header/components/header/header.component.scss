@@ -1,6 +1,6 @@
 :host {
   @apply h-16;
-  @apply flex items-center;
+  @apply flex items-center justify-between;
 
   .logo-container {
     @apply flex gap-x-2;

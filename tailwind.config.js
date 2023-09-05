@@ -15,6 +15,9 @@ module.exports = {
           100: "#06d1de",
           400: "#0fbac5",
         },
+        blue: {
+          200: "#2cbaff",
+        }
       },
       height: {
         30: "7.5rem" // 120px

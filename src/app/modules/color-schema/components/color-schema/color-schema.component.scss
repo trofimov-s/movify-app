@@ -1,0 +1,11 @@
+:host {
+  @apply inline-flex;
+
+  .light_mode {
+    @apply text-yellow-400;
+  }
+
+  .dark_mode {
+    @apply text-blue-200;
+  }
+}

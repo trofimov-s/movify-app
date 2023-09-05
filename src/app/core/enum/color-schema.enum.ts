@@ -1,4 +1,4 @@
-export const enum ColorSchemaEnum {
+export enum ColorSchemaEnum {
   DARK = 'dark',
   LIGHT = 'light',
 }
