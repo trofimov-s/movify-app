@@ -1,0 +1,7 @@
+<app-moview-overview title="Popular">
+  <ul class="flex gap-x-5">
+    <li *ngFor="let item of list">
+      <app-movie-card [card]="item" />
+    </li>
+  </ul>
+</app-moview-overview>

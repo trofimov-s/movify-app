@@ -1,3 +1,8 @@
 {
-  "title": "Hello world!"
+  "header": {
+    "locale": {
+      "en": "English",
+      "ua": "Українська"
+    }
+  }
 }

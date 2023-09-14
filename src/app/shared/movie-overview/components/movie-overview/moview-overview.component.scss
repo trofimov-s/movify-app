@@ -1,0 +1,17 @@
+:host {
+  @apply w-full;
+
+  .title {
+    @apply text-2xl font-bold;
+  }
+
+  .overview-wrapper {
+    @apply w-full;
+    @apply overflow-x-scroll;
+    @apply py-3;
+
+    &::-webkit-scrollbar {
+      @apply hidden;
+    }
+  }
+}

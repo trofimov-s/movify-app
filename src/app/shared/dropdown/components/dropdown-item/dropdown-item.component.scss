@@ -1,0 +1,15 @@
+.dropdown-item {
+  @apply py-1.5;
+  @apply cursor-pointer;
+
+  .text {
+    @apply text-sm;
+    @apply transition-colors duration-200 ease-linear;
+  }
+
+  &:hover {
+    .text {
+      @apply text-turquise-100;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import 'animations';
+
+.dropdown-overlay {
+  @apply flex flex-col overflow-hidden;
+  @apply px-3 py-1;
+  @apply font-light rounded-xl;
+  @apply bg-gray-200 dark:bg-gray-500;
+  @apply text-gray-800 dark:text-gray-100;
+
+  backdrop-filter: blur(6px) saturate(200%);
+  -webkit-backdrop-filter: blur(6px) saturate(200%);
+
+  animation: appearance 300ms linear 1;
+
+  app-dropdown-item:not(:last-child) .dropdown-item {
+    @apply border-b border-solid border-gray-500 dark:border-gray-200;
+  }
+}

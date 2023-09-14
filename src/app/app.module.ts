@@ -4,7 +4,6 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LayoutComponent } from './core/components';
 
 import { CoreModule } from '@core';
 import { HeaderModule } from '@modules/header';
@@ -12,7 +11,7 @@ import { FooterModule } from '@modules/footer';
 import { AppStoreModule } from './store/app-store.module';
 
 @NgModule({
-  declarations: [AppComponent, LayoutComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

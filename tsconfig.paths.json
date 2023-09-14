@@ -5,10 +5,19 @@
       "@core": ["src/app/core/index.ts"],
       "@core/services": ["src/app/core/services/index.ts"],
       "@core/enum": ["src/app/core/enum/index.ts"],
+      "@core/models/api": ["src/app/core/models/api/index.ts"],
+      "@core/models/movie": ["src/app/core/models/movie/index.ts"],
+      "@core/models/movie-shared": ["src/app/core/models/movie-shared/index.ts"],
       "@modules/header": ["src/app/modules/header/index.ts"],
       "@modules/footer": ["src/app/modules/footer/index.ts"],
       "@modules/color-schema": ["src/app/modules/color-schema/index.ts"],
-      "@shared/logo": ["src/app/shared/logo/index.ts"]
+      "@shared/logo": ["src/app/shared/logo/index.ts"],
+      "@shared/icon": ["src/app/shared/icon/index.ts"],
+      "@shared/dropdown": ["src/app/shared/dropdown/index.ts"],
+      "@shared/movie-overview": ["src/app/shared/movie-overview/index.ts"],
+      "@shared/progress-bar": ["src/app/shared/progress-bar/index.ts"],
+      "@shred/card": ["src/app/shared/card/index.ts"],
+      "env": ["src/environments/index.ts"],
     }
   }
 }

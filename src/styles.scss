@@ -2,14 +2,22 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import '@angular/cdk/overlay-prebuilt.css';
+
+@import 'vars';
+@import 'mixins';
 @import 'normalize';
 @import 'color-schema';
-@import 'vars';
+
+@import 'dropdown';
 
 .container {
-  @apply mx-auto max-w-5xl block;
+  @apply w-full max-w-315;
+  @apply mx-auto px-5 lg:px-30;
 }
 
 main {
-  height: calc(100vh - $header-height - $footer-height);
+  min-height: calc(100vh - ($header-height + $footer-height + ($main-block-margin * 2)));
+  margin-top: $main-block-margin;
+  margin-bottom: $main-block-margin;
 }

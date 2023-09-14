@@ -5,4 +5,8 @@
   .logo-container {
     @apply flex gap-x-2;
   }
+
+  .actions {
+    @apply flex items-center gap-x-3;
+  }
 }

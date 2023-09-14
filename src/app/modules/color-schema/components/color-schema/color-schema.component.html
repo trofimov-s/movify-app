@@ -1,8 +1,7 @@
-<span
-  *ngIf="currentSchema$ | async as schema"
-  class="material-symbols-outlined cursor-pointer"
-  (click)="changeSchema()"
-  [class]="schema"
->
-  {{ schema }}
-</span>
+<ng-container *ngIf="currentSchema$ | async as schema">
+  <app-icon
+    [icon]="schema"
+    [extendedClasses]="'cursor-pointer ' + schema"
+    (iconClick)="changeSchema()"
+  />
+</ng-container>

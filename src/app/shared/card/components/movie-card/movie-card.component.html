@@ -1,0 +1,9 @@
+<div class="img-wrapper">
+  <img
+    loading="lazy"
+    [src]="'https://image.tmdb.org/t/p/w300' + card.poster_path"
+    [alt]="card.title"
+  />
+  <app-circle-progress-bar [vote]="card.vote_average" />
+</div>
+<p class="title">{{ card.title }}</p>

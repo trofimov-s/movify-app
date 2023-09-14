@@ -1,0 +1,33 @@
+:host {
+  @apply inline-flex;
+  @apply absolute;
+
+  .circular-progress {
+    @apply relative grid place-items-center;
+    @apply h-10 w-10;
+    border-radius: 50%;
+
+    &::before {
+      @apply absolute;
+      content: '';
+      height: 84%;
+      width: 84%;
+      backdrop-filter: blur(16px) saturate(180%);
+      background-color: #0f3439;
+      border-radius: 50%;
+      color: #006b72;
+    }
+
+    .value-container {
+      @apply relative;
+      @apply mt-0.5 mr-0.5;
+      @apply text-sm font-bold leading-none text-gray-50;
+
+      &::before {
+        @apply absolute -top-1 -right-1;
+        content: '%';
+        font-size: 0.375em;
+      }
+    }
+  }
+}

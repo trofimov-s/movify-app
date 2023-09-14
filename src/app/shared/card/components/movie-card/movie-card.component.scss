@@ -1,0 +1,25 @@
+.img-wrapper {
+  @apply relative;
+  @apply w-37.5;
+  @apply mb-6;
+  @apply cursor-pointer;
+
+  img {
+    @apply w-37.5;
+    @apply rounded-md;
+    height: 225px;
+  }
+
+  &::ng-deep {
+    app-circle-progress-bar {
+      @apply left-2 -bottom-5;
+    }
+  }
+}
+
+.title {
+  @apply text-sm font-bold hover:text-turquise-400;
+  @apply cursor-pointer;
+
+  @apply transition-colors duration-150 ease-linear;
+}

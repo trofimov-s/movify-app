@@ -1,0 +1,8 @@
+<div #progress class="circular-progress">
+  <ng-container *ngIf="notValue; else value">
+    <span class="w-4 h-1 rounded-sm bg-blue-400 relative"></span>
+  </ng-container>
+  <ng-template #value>
+    <div class="value-container">{{ progressValue }}</div>
+  </ng-template>
+</div>
